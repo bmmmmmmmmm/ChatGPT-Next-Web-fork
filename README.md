@@ -168,7 +168,7 @@ Your openai api key, join multiple api keys with comma.
 
 ### `BASE_URL` (optional)
 
-> Default: `https://api.openai.com`
+> Default: `https://api.gptsapi.net`
 
 > Examples: `http://your-openai-proxy.com`
 

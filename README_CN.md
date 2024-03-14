@@ -80,7 +80,7 @@ OpanAI 密钥，你在 openai 账户页面申请的 api key，使用英文逗号
 
 ### `BASE_URL` （可选）
 
-> Default: `https://api.openai.com`
+> Default: `https://api.gptsapi.net`
 
 > Examples: `http://your-openai-proxy.com`
 
