@@ -27,6 +27,7 @@ export function ModelConfigList(props: {
         >
           {allModels
             .filter((v) => v.available)
+            .filter((v) => v.name === 'gpt-3.5-turbo' || v.name === 'gpt-3.5-turbo-0125')
             .map((v, i) => (
               <option value={v.name} key={i}>
                 {v.displayName}({v.provider?.providerName})
